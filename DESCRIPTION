@@ -1,0 +1,21 @@
+Package: Project
+Title: Fun things in R
+Version: 0.0.1
+Authors@R: 
+    person(given = "Iain",
+           family = "McLaughlan",
+           role = c("aut", "cre"),
+           email = "iain.mclaughlan@phs.scot",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: An archive of some fun things that can be done in R along with my 
+    understanding of best practices.
+License: `use_mit_license()`
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+    ggplot2 (>= 3.3.3)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
