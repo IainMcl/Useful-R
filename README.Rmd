@@ -70,6 +70,9 @@ devtools::build(path = "./")
 # In this case path_to_file = "./Project_0.0.1.tar.gz"
 path_to_file = "./Project_0.0.1.tar.gz"
 install.packages(path_to_file, repos = NULL, type="source")
+
+# Adding a licence to a project
+usethis::use_apache_license() # Or whatever licence you want.
 ```
 
 ## External dependincies
